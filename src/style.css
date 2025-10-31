@@ -73,19 +73,6 @@ color: #e50914;
     width: 32px;
     border-radius: 4px;
 }
-/* RESPONSIVIDADE */
-@media (max-width: 768px){
-    nav ul {
-        display: none;
-    }
-    .banner h1 {
-        font-size: 2rem;
-      }
-
-      .banner p {
-        font-size: 0.95rem;
-      }
-}
 
 
  /* BANNER */
@@ -160,16 +147,35 @@ padding: 0 5%;
 .btn.secondary:hover{
     background-color: #e50914;
 }
-@media (max-widht: 768px) {
-    .banner{
-        justify-content: center;
-        text-align: center;
-        padding: 0 10%
-    }
-    .banner-content img{
-        width: 250px;
-    }
-    .banner-content p {
-        font-size: 1rem;
-    }
+
+/* MINHA LISTA*/
+.minha-lista{
+    padding: 80px 4%;
+    z-index: 2;
+}
+.minha-lista h2{
+    font-size: 1.25rem;
+    margin-bottom: 25px;
+}
+.grid-lista{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    grid-template-rows: 1;
+    gap: 15px;
+}
+.grid-lista .item{
+    border-radius: 6px;
+    cursor: pointer;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.grid-lista .item img{
+    width: 100%;
+    height: 100%;
+    display: block;
+    object-fit: cover;
+    border-radius: 6px;
+}
+.grid-lista .item:hover{
+    transform: scale(1.05);
+    box-shadow: 0 0 15px rgba(255,255,255,0.65);
 }
