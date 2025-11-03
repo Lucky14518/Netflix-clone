@@ -11,3 +11,7 @@ No terceiro dia, foi criado o trilho de "Minha lista" contendo filmes e séries,
 No quarto dia, fiz a lista dos filmes e séries em alta, e os conceitos foram os mesmos, mas com hover, apesar de já ter usado hover no dia anterior.
 
 No quinto dia, mais um trilho foi feito com uma lista de 16 séries, agora aplicando o conceito de nth-of-type com hover, para assim criar um rolamento manual. Entretanto as setas não são funcionais, apenas decorativas, já que não apliquei conceitos script.
+
+No sexto dia, criamos o footer do site contendo links não funcionais, ícones e um botão, além de mexer um pouco com o hover e organizá-los com display grid.
+
+No sétimo e último dia, foi o dia de publicar o site em um repositório do github, além de corrigir possíveis erros do site.
